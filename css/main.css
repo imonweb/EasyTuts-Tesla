@@ -14,6 +14,7 @@
   background-position: center;
   background-size: cover;
   padding: 0 7%;
+  transition: background-image 1s;
 }
 
 .header nav {
@@ -53,4 +54,32 @@
   border-radius: 30px;
   margin-right: 7%;
 }
+
+.header .info {
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+}
+
+.header .info div {
+  margin: 0 20px;
+}
+
+.header .info div h2 {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.header .info .line {
+  flex: 1;
+  background: #fff;
+  height: 4px;
+}
+
+/*  header */
 /*# sourceMappingURL=main.css.map */
